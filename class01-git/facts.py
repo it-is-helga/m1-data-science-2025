@@ -17,9 +17,8 @@ people = [
 # facts are numerated from 0
 answers = {'example': 1,
            'javanochka': 2,
-           'Muradmustafayev-03': 1}
-           'bla': 0,
-           'javanochka': 2,}
+           'Muradmustafayev-03': 1,
+           'bla': 0}
 
 
 def format_person_info(person):
