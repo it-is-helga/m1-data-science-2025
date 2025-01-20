@@ -2,9 +2,9 @@ import scrapy
 import json
 
 class WikipediaSpider: #Something is missing here. What exactly?
-    name = "wikipedia"
-
-    start_urls = ["https://en.wikipedia.org/wiki/List_of_French_artists"]
+    def __init__(self):
+        self.name = "wikipedia"
+        self.start_urls = ["https://en.wikipedia.org/wiki/List_of_French_artists"]
 
     def parse(self, response):
         list_els = #get all links which are in lists on the page
